@@ -1,4 +1,4 @@
-Write-Host "Xendl v1.4 by Etokapa" -ForegroundColor Yellow #Improvements welcome.
+Write-Host "Xendl v1.5 by Etokapa" -ForegroundColor Yellow #Improvements welcome.
 ""
 ""
 ""
@@ -15,7 +15,7 @@ Remove-Item xenia_master.zip
 Write-Host -NoNewLine " Done!"
 ""
 ""
-"Downloading Latest Canary EX Build..."; curl "https://github.com/xenia-canary/xenia-canary/releases/latest/download/xenia_canary.zip" -O xenia_canary_EX.zip
+"Downloading Latest Canary EX Build..."; curl "https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip" -O xenia_canary_EX.zip
 Write-Host -NoNewLine "Extracting..."
 Expand-Archive xenia_canary_EX.zip
 Move-Item -Force ".\xenia_canary_EX\xenia_canary.exe" ".\xenia_canary_EX.exe"
