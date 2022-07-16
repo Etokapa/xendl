@@ -1,4 +1,4 @@
-Write-Host "Xendl v1.5 by Etokapa" -ForegroundColor Yellow #Improvements welcome.
+Write-Host "Xendl v1.6 by Etokapa" -ForegroundColor Yellow #Improvements welcome.
 ""
 ""
 ""
@@ -22,6 +22,16 @@ Move-Item -Force ".\xenia_canary_EX\xenia_canary.exe" ".\xenia_canary_EX.exe"
 Write-Host -NoNewLine " Cleaning up..."
 Remove-Item -Recurse xenia_canary_EX
 Remove-Item xenia_canary_EX.zip
+Write-Host -NoNewLine " Done!"
+""
+""
+"Downloading Latest STFS-Writer Build..."; curl "https://github.com/epozzobon/xenia/releases/latest/download/xenia_stfs-writer.zip" -O xenia_stfs-writer.zip
+Write-Host -NoNewLine "Extracting..."
+Expand-Archive xenia_stfs-writer.zip
+Move-Item -Force ".\xenia_stfs-writer\xenia.exe" ".\xenia_STFS-Writer.exe"
+Write-Host -NoNewLine " Cleaning up..."
+Remove-Item -Recurse xenia_stfs-writer
+Remove-Item xenia_stfs-writer.zip
 Write-Host -NoNewLine " Done!"
 ""
 ""
