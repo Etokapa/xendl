@@ -1,7 +1,6 @@
 # xendl
-A quick script to update Xenia.
+A quick batch file to update Xenia.
 
 ## Usage:
-Download `xendl.ps1`, right click it and **Run with PowerShell**.
-This will download and extract the latest builds for [Master](https://github.com/xenia-project/xenia "Master"), [Canary Experimental](https://github.com/xenia-canary/xenia-canary "Canary Experimental"), [STFS-Writer](https://github.com/epozzobon/xenia/tree/stfs-writer "STFS-Writer"), and [Patches](https://github.com/xenia-canary/game-patches "Patches") in the same folder as `xendl.ps1`.
-![xendl](https://user-images.githubusercontent.com/31154606/156944664-0fd30b46-3568-4f27-b0ce-5f1196fb1985.png)
+Download and run `xendl.bat`.
+This will download and extract the latest builds for [Xenia Master](https://github.com/xenia-project/xenia "Master"), [Xenia Canary](https://github.com/xenia-canary/xenia-canary), [Xenia Canary Netplay](https://github.com/AdrianCassar/xenia-canary/tree/netplay_canary_experimental), [STFS-Writer](https://github.com/epozzobon/xenia/tree/stfs-writer "STFS-Writer"), and [Patches](https://github.com/xenia-canary/game-patches "Patches") in the same folder as `xendl.bat`.
